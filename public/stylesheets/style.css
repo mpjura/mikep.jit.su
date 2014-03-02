@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'WalkwayUltra';
+  src: url('../fonts/Walkway_UltraBold-webfont.eot');
+  src: url('../fonts/Walkway_UltraBold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Walkway_UltraBold-webfont.woff') format('woff'),
+       url('../fonts/Walkway_UltraBold-webfont.ttf') format('truetype'),
+       url('../fonts/Walkway_UltraBold-webfont.svg#WalkwayUltraBoldRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WalkwaySemi';
+  src: url('Walkway_SemiBold-webfont.eot');
+  src: url('Walkway_SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Walkway_SemiBold-webfont.woff') format('woff'),
+       url('Walkway_SemiBold-webfont.ttf') format('truetype'),
+       url('Walkway_SemiBold-webfont.svg#WalkwaySemiBoldRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WalkwayObliqueBold';
+  src: url('Walkway_Oblique_Bold-webfont.eot');
+  src: url('Walkway_Oblique_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Walkway_Oblique_Bold-webfont.woff') format('woff'),
+       url('Walkway_Oblique_Bold-webfont.ttf') format('truetype'),
+       url('Walkway_Oblique_Bold-webfont.svg#WalkwayObliqueBoldRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+body {
+  padding:75px 0 0;
+  margin:0;
+  font:1em "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#efefef;
+  color:#333;
+}
+a {
+  color:#00B7FF;
+}
+/* Resume */
+.resume-content {
+  width:80%;
+  max-width:640px;
+  margin:0 auto;
+}
+.resume-content h2,
+.resume-content h3,
+.resume-content h4 {
+  font:1.25em WalkwayObliqueBold, sans-serif;
+}
+.resume-content h3 {
+  font-size:1.1em;
+}
+.resume-content h4 {
+  font-size:1em;
+}
+.resume-header {
+  font:2em WalkwayUltra, sans-serif;
+  text-transform:lowercase;
+  margin:0 0 16px;
+}
+.resume-section {
+  margin:30px 0 40px;
+}
+.resume-section p,
+.resume-section ul {
+  font-size:0.875em;
+  padding:0 2%;
+}
+.resume-section ul {
+  padding-left:5%;
+}
+.experience-section {
+  margin:20px 0;
+}
+.experience-header {
+  position:relative;
+  margin:20px 0;
+}
+.title,
+.company {
+  margin:0;
+}
+.date {
+  float:right;
+  color:#999;
+  font-size:0.75em;
+}
