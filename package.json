@@ -9,11 +9,10 @@
     "express": "3.4.8",
     "jade": "*",
     "grunt": "0.4.2",
-    "grunt-contrib-less": "0.10.0"
+    "grunt-contrib-less": "0.10.0",
+    "marked": "^0.3.1"
   },
-  
   "subdomain": "mikep",
-  
   "engines": {
     "node": "0.10.x"
   }
