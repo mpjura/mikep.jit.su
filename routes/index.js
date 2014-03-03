@@ -1,30 +1,13 @@
-var _ = require('underscore');
 
-/* Locals */
-var meta = {
+/**
+* GET home page.
+**/
+
+var globals = {
   title: 'Mike Pjura',
-  description: 'I\'m Mike Pjura, a front-end web developer from New Jersey. This is my awesome Nodejitsu site.' 
+  subtitle: 'A place to put my stuff.'
 };
 
-var indexLocals = {
-  meta: {},
-  title: 'Mike Pjura'
-};
-_.extend( indexLocals.meta, meta );
-
-var resumeLocals = {
-  meta: {},
-  title: 'Mike Pjura'
-};
-_.extend( resumeLocals.meta, meta );
-
-
-/* GET - home page */
 exports.index = function(req, res){
-  res.render('resume', resumeLocals );
+  res.render('index', globals );
 };
-
-/* GET - resume */
- exports.resume = function(req,res){
-   res.render('resume', resumeLocals );
- };
